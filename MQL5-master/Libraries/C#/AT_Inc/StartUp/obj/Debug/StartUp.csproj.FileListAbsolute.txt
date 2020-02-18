@@ -1,0 +1,11 @@
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\C#\AT_Inc\StartUp\bin\Debug\StartUp.exe.config
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\C#\AT_Inc\StartUp\bin\Debug\StartUp.exe
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\C#\AT_Inc\StartUp\bin\Debug\StartUp.pdb
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\C#\AT_Inc\StartUp\bin\Debug\AT_Inc.dll
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\C#\AT_Inc\StartUp\obj\Debug\StartUp.csprojAssemblyReference.cache
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\C#\AT_Inc\StartUp\obj\Debug\StartUp.Properties.Resources.resources
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\C#\AT_Inc\StartUp\obj\Debug\StartUp.csproj.GenerateResource.cache
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\C#\AT_Inc\StartUp\obj\Debug\StartUp.csproj.CopyComplete
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\C#\AT_Inc\StartUp\obj\Debug\StartUp.exe
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\C#\AT_Inc\StartUp\obj\Debug\StartUp.pdb
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\C#\AT_Inc\StartUp\bin\Debug\AT_Inc.pdb

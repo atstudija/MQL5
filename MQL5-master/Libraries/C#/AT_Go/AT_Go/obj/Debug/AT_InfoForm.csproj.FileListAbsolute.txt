@@ -1,0 +1,7 @@
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\C#\AT_Go\AT_Go\obj\Debug\AT_InfoForm.InfoForm.resources
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\C#\AT_Go\AT_Go\obj\Debug\AT_InfoForm.csproj.GenerateResource.cache
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\C#\AT_Go\AT_Go\obj\Debug\AT_InfoForm.csprojAssemblyReference.cache
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\C#\AT_Go\AT_Go\obj\Debug\AT_InfoForm.dll
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\C#\AT_Go\AT_Go\obj\Debug\AT_InfoForm.pdb
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\AT_InfoForm.dll
+C:\Users\atstudija1\AppData\Roaming\MetaQuotes\Terminal\D0E8209F77C8CF37AD8BF550E51FF075\MQL5\Libraries\AT_InfoForm.pdb

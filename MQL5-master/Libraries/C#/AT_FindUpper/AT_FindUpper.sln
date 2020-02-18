@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AT_FindUpper", "AT_FindUpper\AT_FindUpper.csproj", "{774F55FE-E6CA-431A-B63E-D30256FDE566}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{774F55FE-E6CA-431A-B63E-D30256FDE566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774F55FE-E6CA-431A-B63E-D30256FDE566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774F55FE-E6CA-431A-B63E-D30256FDE566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774F55FE-E6CA-431A-B63E-D30256FDE566}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD6D9167-B794-4D62-8B00-F04B4EEC8983}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+/home/definexlr2/.wine/drive_c/Program Files/MetaTrader 5/MQL5/Libraries/Mono/Mail/Mail/bin/Debug/Mail.exe
+/home/definexlr2/.wine/drive_c/Program Files/MetaTrader 5/MQL5/Libraries/Mono/Mail/Mail/bin/Debug/Mail.pdb
+/home/definexlr2/.wine/drive_c/Program Files/MetaTrader 5/MQL5/Libraries/Mono/Mail/Mail/obj/x86/Debug/Mail.csprojAssemblyReference.cache
+/home/definexlr2/.wine/drive_c/Program Files/MetaTrader 5/MQL5/Libraries/Mono/Mail/Mail/obj/x86/Debug/Mail.exe
+/home/definexlr2/.wine/drive_c/Program Files/MetaTrader 5/MQL5/Libraries/Mono/Mail/Mail/obj/x86/Debug/Mail.pdb

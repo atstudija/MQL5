@@ -1,0 +1,5 @@
+/home/definexlr2/.wine/drive_c/Program Files/MetaTrader 5/MQL5/Libraries/AA_Inc/AA_Inc/AA_Inc/obj/x86/Debug/AA_Inc.csprojAssemblyReference.cache
+/home/definexlr2/.wine/drive_c/Program Files/MetaTrader 5/MQL5/Libraries/AA_Inc/AA_Inc/AA_Inc/obj/x86/Debug/AA_Inc.pdb
+/home/definexlr2/.wine/drive_c/Program Files/MetaTrader 5/MQL5/Libraries/AA_Inc/AA_Inc/AA_Inc/obj/x86/Debug/AA_Inc.dll
+/home/definexlr2/.wine/drive_c/Program Files/MetaTrader 5/MQL5/Libraries/AA_Inc.dll
+/home/definexlr2/.wine/drive_c/Program Files/MetaTrader 5/MQL5/Libraries/AA_Inc.pdb

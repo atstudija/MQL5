@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{E96851F2-083A-4391-8EEA-74547DB6ADDF}|Default">
+  <MonoDevelop.Ide.ItemProperties.Mail PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mail/MainWindow.cs">
+    <Files>
+      <File FileName="Mail/Program.cs" Line="1" Column="1" />
+      <File FileName="Mail/MainWindow.cs" Line="68" Column="39" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mail" expanded="True">
+            <Node name="Mail" expanded="True">
+              <Node name="References" expanded="True" selected="True" />
+              <Node name="UserInterface" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

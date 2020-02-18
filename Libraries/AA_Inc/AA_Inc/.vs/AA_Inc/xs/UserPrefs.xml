@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{4765EB8C-2D26-4E92-A4C2-96A8D040F655}|Default">
+  <MonoDevelop.Ide.ItemProperties.AA__Inc PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AA_Inc/Program.cs">
+    <Files>
+      <File FileName="AA_Inc/Program.cs" Line="17" Column="1" />
+      <File FileName="AA_Inc/MainWindow.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AA_Inc" expanded="True">
+            <Node name="AA_Inc" expanded="True">
+              <Node name="UserInterface" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
