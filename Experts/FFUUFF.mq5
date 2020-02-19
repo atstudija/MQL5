@@ -7,9 +7,14 @@
 #property link      "https://www.atstudija.id.lv"
 #property version   "1.00"
 #include <AA/Indicators/C_Stochastic.mqh>
+#include <AA/Crosses/C_LWMA5_X_SMA10.mqh>
 #include <AA/G/C_Labels.mqh>
+#include <AA/G/C_Arrows.mqh>
+
+C_LWMA5_X_SMA10 lwma_5_x_sma_10;
 C_Labels label;
 C_Stochastic stocastics;
+C_Arrows arrow;
 //+------------------------------------------------------------------+
 //| Expert initialization function                                   |
 //+------------------------------------------------------------------+
@@ -38,6 +43,14 @@ void OnTick()
      double stocastic[];
      double signal[];
      stocastics.Buffers(stocastic, signal);
-     label.Create(stocastic[0]);
+    // label.Create(stocastic[0]);
+    int a = lwma_5_x_sma_10.cross();
+    if(a == 1){
+         arrow.BuyArrow();
+    }
+    if(a == -1){
+          arrow.SellArrow();
+    }
+    
   }
 //+------------------------------------------------------------------+
