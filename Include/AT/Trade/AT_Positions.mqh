@@ -1,6 +1,6 @@
    #include<Trade\Trade.mqh>
    #include<AT/AT_Functions.mqh>
-   input int StopLossPoints = 5;
+   input int StopLossPoints = 0;
    CTrade trade;
 
    ulong OpenBuyPosition()
@@ -11,7 +11,7 @@
       string comment = "Comment";
  //     if(AT_CountPositionsBySymbol(_Symbol)==0)
  //     {
-         if(!trade.PositionOpen(_Symbol,ORDER_TYPE_BUY,0.10,price,SL,0,comment))
+         if(!trade.PositionOpen(_Symbol,ORDER_TYPE_BUY,0.10,price,0,0,comment))
            {
             //--- failure message
             Print("PositionOpen() method failed. Return code=",trade.ResultRetcode(),
@@ -34,7 +34,7 @@
       string comment = "Comment";
       if(AT_CountPositionsBySymbol(_Symbol)==0)
   //    {
-         if(!trade.PositionOpen(_Symbol,ORDER_TYPE_SELL,0.10,price,SL,0,comment))
+         if(!trade.PositionOpen(_Symbol,ORDER_TYPE_SELL,0.10,price,0,0,comment))
            {
             //--- failure message
             Print("PositionOpen() method failed. Return code=",trade.ResultRetcode(),

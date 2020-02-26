@@ -21,7 +21,7 @@ class C_Arrows
          void SellArrow(double price, datetime time);
          void BuyStopArrow(double price, datetime time);
          void SellStopArrow(double price, datetime time);
-
+         void Create(int arrow);
   };
 //+------------------------------------------------------------------+
 //| Constructor                                                      |
@@ -35,6 +35,7 @@ C_Arrows::C_Arrows(void) : m_BuyArrowsCount(1),
    //Alert("Hello world! I am run when an object of type C_Arrows is created!");
       
   }
+
 //+------------------------------------------------------------------+
 //| Destructor                                                       |
 //+------------------------------------------------------------------+
@@ -43,7 +44,13 @@ C_Arrows::~C_Arrows(void)
    //Alert("Goodbye world! I am run when the object is destroyed!");
    
   }
-
+     void C_Arrows::Create(int arrow)
+     {
+          
+          ObjectCreate(0, "name", OBJ_ARROW, 0, TimeCurrent(), SymbolInfoDouble(_Symbol, SYMBOL_ASK));
+          ObjectSetInteger(0,"name",OBJPROP_ARROWCODE,arrow);
+          ObjectSetInteger(0, "name", OBJPROP_WIDTH, 5);
+     }
    void C_Arrows::BuyArrow(double price = 0,datetime time = 0)
    {
         long  chart_ID = 0; 
@@ -69,7 +76,7 @@ C_Arrows::~C_Arrows(void)
    void C_Arrows::BuyStopArrow(double price = 0, datetime time = 0)
    {
         long  chart_ID = 0; 
-        string name = "BuyStopArrow";// + (string)m_BuyStopArrowsCount;
+        string name = "BuyStopArrow" + (string)m_BuyStopArrowsCount;
         int sub_window = 0;   
         if(price == 0){
             price = SymbolInfoDouble(_Symbol, SYMBOL_BID);
@@ -78,16 +85,19 @@ C_Arrows::~C_Arrows(void)
          time = TimeCurrent();
         }
          ResetLastError();
-         if(!ObjectCreate(chart_ID, name, OBJ_ARROW_STOP, sub_window, time, price))
+         if(!ObjectCreate(chart_ID,name,OBJ_ARROW,sub_window,time,price))
         {
             Print(__FUNCTION__,
                   ": failed to create \"Stop\" sign! Error code = ",GetLastError());
            }else{
-         
-            ObjectSetInteger(chart_ID, name, OBJPROP_ANCHOR, ANCHOR_BOTTOM);
-            ObjectSetInteger(chart_ID, name, OBJPROP_COLOR, clrYellow);
-            ObjectSetInteger(chart_ID, name, OBJPROP_STYLE, STYLE_SOLID);
-            ObjectSetInteger(chart_ID, name, OBJPROP_WIDTH, 5);
+               ObjectSetInteger(chart_ID,name,OBJPROP_ARROWCODE,130);    // Set the arrow code
+               ObjectSetInteger(chart_ID, name, OBJPROP_COLOR, clrBlue);
+               ObjectSetInteger(chart_ID, name, OBJPROP_STYLE, STYLE_SOLID);
+               ObjectSetInteger(chart_ID, name, OBJPROP_WIDTH, 5);
+               ObjectSetInteger(chart_ID, name, OBJPROP_ANCHOR, ANCHOR_BOTTOM);
+               ChartRedraw(0);                                        // Draw arrow now
+            
+
 
             m_BuyStopArrowsCount++;
          }
