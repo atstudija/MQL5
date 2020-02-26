@@ -1,5 +1,5 @@
 //+------------------------------------------------------------------+
-//|                                                         Days.mq5 |
+//|                                                            17.02 |
 //|                                   Copyright 2020, AT Studija IK. |
 //|                                      https://www.atstudija.id.lv |
 //+------------------------------------------------------------------+
@@ -9,10 +9,7 @@
 //+------------------------------------------------------------------+
 //| Expert initialization function                                   |
 //+------------------------------------------------------------------+
-
-#include <AA_Days/Indics/Indics.mqh>
-#include <AT/Trade/AT_Positions.mqh>
-bool buyPosition = false;
+//#include <AA_Days/Indics/Indics.mqh>
 int OnInit()
   {
 //---
@@ -33,20 +30,7 @@ void OnDeinit(const int reason)
 //+------------------------------------------------------------------+
 void OnTick()
   {
-//--
-    // #include <AA_Days/Days/17.02.mqh>
-    int p = 10;
-    if(((TEMA(p ,3) > TEMA(p, 2)) || (TEMA(p, 3) == TEMA(p, 2)))&&(TEMA(p, 2) < TEMA(p, 1))){
-         if(buyPosition == false){
-            OpenBuyPosition();
-            buyPosition = true;
-         }
-    }
-    if(((TEMA(p ,3) < TEMA(p, 2)) || (TEMA(p, 3) == TEMA(p, 2)))&&(TEMA(p, 2) > TEMA(p, 1))){
-         if(buyPosition == true){
-            CloseAllPositions();
-            buyPosition = false;
-         }
-    }
-  }                                      
+//---
+   
+  }
 //+------------------------------------------------------------------+
