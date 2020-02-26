@@ -35,18 +35,20 @@ void OnTick()
   {
 //--
     // #include <AA_Days/Days/17.02.mqh>
-    int p = 10;
-    if(((TEMA(p ,3) > TEMA(p, 2)) || (TEMA(p, 3) == TEMA(p, 2)))&&(TEMA(p, 2) < TEMA(p, 1))){
-         if(buyPosition == false){
-            OpenBuyPosition();
-            buyPosition = true;
-         }
+    int ma_slow = 10, ma_fast = 5;
+    Comment(DoubleToString(NormalizeDouble(_Point,_Digits)));
+    if((TEMA(ma_fast, 2) < TEMA(ma_slow, 2)) && ((TEMA(ma_fast, 1) > TEMA(ma_slow, 1)))){
+      if(buyPosition == false){
+         OpenBuyPosition();
+         buyPosition = true;
+      }
     }
-    if(((TEMA(p ,3) < TEMA(p, 2)) || (TEMA(p, 3) == TEMA(p, 2)))&&(TEMA(p, 2) > TEMA(p, 1))){
-         if(buyPosition == true){
-            CloseAllPositions();
-            buyPosition = false;
-         }
+    if((TEMA(ma_fast, 2) > TEMA(ma_slow, 2)) && ((TEMA(ma_fast, 1) < TEMA(ma_slow, 1)))){
+      if(buyPosition == true){
+         CloseAllPositions();
+         buyPosition = false;
+      }
     }
+
   }                                      
 //+------------------------------------------------------------------+
