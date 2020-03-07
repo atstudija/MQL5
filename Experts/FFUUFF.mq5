@@ -76,10 +76,10 @@ void OnTick()
                    if(STOCH() > 0){
                     if(RSI() > 60){
                          if(MACD_M() > MACD_S()){
-                         //    if(ATR() > 0.00030){
+                             if(ATR() > 0.00030){
                                    OpenBuyPosition();
                                    isBuy = true;
-                          //   }
+                             }
                           }
                      }      
                    }
